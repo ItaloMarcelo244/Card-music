@@ -1,0 +1,119 @@
+*{
+font-size: 100%;
+font-family: 'Red Hat Display'; 
+}
+
+body{
+    background: url(../img/fundo.svg)  no-repeat  fixed top ;
+    background-size: auto;
+    background-color:#e0e8ff;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-container{
+    background-color: hsl(225, 100%, 98%) ;
+    border-radius: 15px;
+    width: 375px;
+    height: 550px;
+}
+
+img{
+    border-radius: 15px 15px 0 0;
+}
+
+.container1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+p{
+    max-width: 350px;
+    margin-right: 25px;
+    color: #838792;
+    padding-left: 15px;
+    flex-wrap: wrap;
+}
+
+h4{
+    flex-wrap: wrap;
+    float: left;
+}
+
+
+.item1,strong{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.item-ali{
+    display: block;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+.item-ali,img{
+  display: flex;
+  justify-content: center;
+}
+
+.link{
+    float: right;
+    align-items: flex-end;
+}
+
+.space{
+    max-width: 960px;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right:50px;
+}
+a{
+ margin-left: 30px;
+ cursor: pointer;
+ text-decoration: none;
+}
+
+.botoes{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+
+}
+button{
+  border: none;
+  font-weight: bolder;
+  color: #fff;
+  width: 300px;
+  height: 45px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.blue{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #766cf1;
+    box-shadow: 1px 0 1px;
+}
+
+.white{
+    background-color: #fff;
+    color: black;
+}
+.cor{
+    font-size: 16px;
+    color: black;
+}
