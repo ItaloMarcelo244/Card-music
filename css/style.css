@@ -106,11 +106,12 @@ button{
     border-radius: 10px;
     margin-bottom: 10px;
     background-color: #766cf1;
-    box-shadow: 1px 0 1px;
+    box-shadow: 1px 0 1px blue;
+
 }
 
 .white{
-    background-color: #fff;
+    background-color: trasparent;
     color: black;
 }
 .cor{
