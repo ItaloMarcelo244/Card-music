@@ -111,7 +111,7 @@ button{
 }
 
 .white{
-    background-color: trasparent;
+    background-color: hsl(225, 100%, 98%) ;
     color: black;
 }
 .cor{
